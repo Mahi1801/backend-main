@@ -1,25 +1,9 @@
-import fs from "fs";
+# Security holding package
 
-// Create Directory
-function createDirSync() {
-  fs.mkdirSync("myFolder");
-  console.log("Directory created");
-}
+This package name is not currently in use, but was formerly occupied
+by another package. To avoid malicious use, npm is hanging on to the
+package name, but loosely, and we'll probably give it to you if you
+want it.
 
-// Read Directory
-function readDirSync() {
-  const files = fs.readdirSync("myFolder");
-  console.log("Files:", files);
-}
-
-// Remove Directory
-function removeDirSync() {
-  fs.rmSync("myFolder", { recursive: true });
-  console.log("Directory removed");
-}
-
-// Call them
-createDirSync();
-readDirSync();
-removeDirSync();
-
+You may adopt this package by contacting support@npmjs.com and
+requesting the name.
